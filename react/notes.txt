@@ -217,7 +217,55 @@ Presentatoinal component:
                 -it is used to manage the UI of its child component
 
 ------------------------------------------------------------------------------------------------------------------
+Events:
+      -Events are used to handle user interactions/actions by calling function.
 
+click events:
+           1.onClick
+           2.onDoubleClick
+Mouse events:
+           3.onMouseEnter
+           4.onMouseLeave
+           5.onMousesMove
+           6.onMouseOver
+           7.onMouseOut
+           8.onMouseUp
+           9.onMouseDown
+           10.onMousewheel
+           11.onScroll
+
+-------------------------------------------------------------------------------------------------------
+Style in react:
+             1.inline style
+             2.internal style
+             3.external framework/library(bootstrap)
+
+1.inline style:
+       -it is used to provide style with the help of style attribute and object
+ex:
+  <button style = { {key: value} } >click</button>
+
+2.external styyle:
+       -it is used to provide style with the help of external css file
+       -then import css file in respective jsx file
+
+ex:
+  import './style.css'
+  <button>click</button>
+
+3.external framework/library(bootstrap):
+      -it is used to provide style with the help of cdn or node packages
+      -then import bootstrap css file in respective jsx file - for css
+      -then import bootstrap js file in respective jsx file - for js
+
+ex:
+  import 'bootstrap /dist/css/bootstrap.min.css'
+  import 'bootstrap /dist/js/bootstrap.min.js'
+
+  node packages:
+  cmd:npm install bootstrap@5.3.5
+  
+       
 
 
 
